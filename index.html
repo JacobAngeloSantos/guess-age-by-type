@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Your Age by Typing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        textarea {
+            width: 80%;
+            height: 100px;
+            margin: 10px auto;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Guess Your Age by Typing</h1>
+    <textarea id="typingArea" placeholder="Start typing here..."></textarea>
+    <br>
+    <button onclick="guessAge()">Guess My Age</button>
+    <h2 id="result"></h2>
+    <script src="script.js"></script>
+</body>
+</html>
